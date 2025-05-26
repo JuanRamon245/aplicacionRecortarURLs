@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+  	<servlet-name>procesaUrl</servlet-name>
+  	<display-name>procesaUrl</display-name>
+  	<description></description>
+  	<servlet-class>control.ProcesaUrl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>redireccionUrl</servlet-name>
+  	<display-name>redireccionUrl</display-name>
+  	<description></description>
+  	<servlet-class>control.RedireccionUrl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>aIndex</servlet-name>
+  	<display-name>aIndex</display-name>
+  	<description></description>
+  	<servlet-class>control.AIndex</servlet-class>
+  </servlet>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+</web-app>
