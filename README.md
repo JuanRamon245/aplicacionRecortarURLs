@@ -1,0 +1,54 @@
+= Acortador de URLs
+
+Aplicación web que a partir de una interfaz donde se puede introducir una URL, se obtiene una URL más corta a través de la cual se puede acceder al contenido de la URL original.
+
+= Para desplegar la aplicación se necesita:
+
+- Navegador web
+- Entorno de desarrollo web: Eclipse, Intellij, ...
+- Base de datos local
+
+== Fue construido con:
+
+* [Eclipse](https://www.eclipse.org/) - El IDE usado
+* [IntelliJ](https://www.jetbrains.com/idea/) - El IDE usado
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [Hibernate](https://hibernate.org/) - Utilizado para el manejo y conexión con los registros almacenados en la base de datos
+* [phpMyAdmin](https://www.phpmyadmin.net/) - Como herramienta para manejar la administración de MySQL
+
+=== Estructura de los Directorios:
+[source]
+----
+Acortador_Url
+├── src/main/java
+│   ├── clases  
+│   │   └── Url.java
+│   ├── control
+│   │   ├── HibernateUtil.java
+│   │   ├── procesaUrl.java
+│   │   └── redireccionUrl.java
+│   ├── recursos
+│   │   └── Recursos.java
+│   ├── servicio 
+│   │   └── UrlDAO.java
+│   └── hibernate.cfg.xml
+│      
+├── src/main/webapp
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       └── index.js  
+│   ├── WEB-INF
+│   │   └── web.xml
+│   └── index.jsp       
+│       
+├── pom.xml
+└── README.adoc
+----
+
+== Autores:
+
+* **Mara Hernández Paz** - *Front y documentación* - (mara5hdez@gmail.com)
+* **Juan Ramón de León Martín** - *Back y documentación* - (juanramondeleonmartin@gmail.com)
+* **Christian Gómez Lozano** - *Back y documentación* - (cgomez@serbatic.es)
