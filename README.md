@@ -20,31 +20,57 @@ Aplicación web que a partir de una interfaz donde se puede introducir una URL, 
 [source]
 ----
 Acortador_Url
+
 ├── src/main/java
+
 │   ├── clases  
+
 │   │   └── Url.java
+
 │   ├── control
+
 │   │   ├── HibernateUtil.java
+
 │   │   ├── procesaUrl.java
+
 │   │   └── redireccionUrl.java
+
 │   ├── recursos
+
 │   │   └── Recursos.java
+
 │   ├── servicio 
+
 │   │   └── UrlDAO.java
+
 │   └── hibernate.cfg.xml
+
 │      
+
 ├── src/main/webapp
+
 │   ├── assets
+
 │   │   ├── css
+
 │   │   │   └── style.css
+
 │   │   └── js
+
 │   │       └── index.js  
+
 │   ├── WEB-INF
+
 │   │   └── web.xml
+
 │   └── index.jsp       
+
 │       
+
 ├── pom.xml
+
 └── README.adoc
+
 ----
 
 == Autores:
